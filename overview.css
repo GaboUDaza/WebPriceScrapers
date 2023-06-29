@@ -1,0 +1,74 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #000123;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+}
+
+
+nav{
+    position: absolute;
+    bottom:110px;
+    Right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 5px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ff0f7b;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium';
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    text-align: center;
+    background: url(IMAGENES/negro.jpeg);
+    position: relative;
+    padding: 200px;
+}
+
+.logo {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    top: 30px;
+    left: 40%;
+}
+
+.copyright {
+    position: absolute;
+    left: 40%;
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px; 
+    top: 300px;
+}
